@@ -16,7 +16,6 @@ export class User {
   @Column()
   email: string;
 
-  @Field({ nullable: true })
-  @Column({ nullable: true })
+  @Column()
   pass: string;
 }
